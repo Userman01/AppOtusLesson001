@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PageOneView: View {
     
-    @ObservedObject private var viewModel: PageOneViewModel = .init()
+    @StateObject private var viewModel: PageOneViewModel = .init()
     @Binding var selectedTab: TabSelectionBindingModel
     
     var body: some View {

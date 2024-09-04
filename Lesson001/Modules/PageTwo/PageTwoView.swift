@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PageTwoView: View {
     
-    @ObservedObject private var viewModel: PageTwoViewModel = .init()
+    @StateObject private var viewModel: PageTwoViewModel = .init()
     @EnvironmentObject private var navigationCoordinator: NavigationCoordinator
     @Binding var selectedTab: TabSelectionBindingModel
     

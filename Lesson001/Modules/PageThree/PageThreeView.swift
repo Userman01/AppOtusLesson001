@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PageThreeView: View {
     
-    @ObservedObject private var viewModel: PageThreeViewModel = .init()
+    @StateObject private var viewModel: PageThreeViewModel = .init()
     @State private var showModel = false
     
     var body: some View {
