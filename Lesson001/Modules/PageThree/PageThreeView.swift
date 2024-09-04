@@ -13,7 +13,7 @@ struct PageThreeView: View {
     @State private var showModel = false
     
     var body: some View {
-        Button("Show Modal View") {
+        Button(viewModel.presentModel.tittle) {
             showModel.toggle()
         }
         .sheet(isPresented: $showModel, content: {

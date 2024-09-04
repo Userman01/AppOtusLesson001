@@ -9,5 +9,6 @@ import Foundation
 
 struct PageThreePresentModel {
     var text: String
+    var tittle: String
 }
 

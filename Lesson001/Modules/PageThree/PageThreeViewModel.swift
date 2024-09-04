@@ -9,5 +9,5 @@ import Combine
 
 class PageThreeViewModel: ObservableObject {
     
-    @Published var presentModel: PageThreePresentModel = .init(text: "Model View")
+    @Published var presentModel: PageThreePresentModel = .init(text: "Model View", tittle: "Show Modal View")
 }
